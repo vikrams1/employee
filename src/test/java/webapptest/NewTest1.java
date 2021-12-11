@@ -61,7 +61,7 @@ public class NewTest1 {
   @AfterClass
   public void close()
   {
-	 // dri.close();
+	  dri.close();
   }
   }
   

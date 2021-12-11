@@ -1,109 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-12T03:03:34 IST" name="Default suite" finished-at="2021-12-12T03:03:34 IST" duration-ms="508">
+  <suite started-at="2021-12-12T03:10:17 IST" name="Default suite" finished-at="2021-12-12T03:10:45 IST" duration-ms="28042">
     <groups>
     </groups>
-    <test started-at="2021-12-12T03:03:34 IST" name="Default test" finished-at="2021-12-12T03:03:34 IST" duration-ms="508">
+    <test started-at="2021-12-12T03:10:17 IST" name="Default test" finished-at="2021-12-12T03:10:45 IST" duration-ms="28042">
       <class name="webapptest.NewTest1">
-        <test-method is-config="true" signature="start()[pri:0, instance:webapptest.NewTest1@27ce24aa]" started-at="2021-12-12T03:03:34 IST" name="start" finished-at="2021-12-12T03:03:34 IST" duration-ms="442" status="FAIL">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: D:\Edurekha\Dev-ops\selenium\webapp\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Edurekha\Dev-ops\selenium\webapp\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at webapptest.NewTest1.start(NewTest1.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method is-config="true" signature="start()[pri:0, instance:webapptest.NewTest1@27ce24aa]" started-at="2021-12-12T03:10:17 IST" name="start" finished-at="2021-12-12T03:10:33 IST" duration-ms="16106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="insertcase()[pri:0, instance:webapptest.NewTest1@27ce24aa]" started-at="2021-12-12T03:03:34 IST" name="insertcase" finished-at="2021-12-12T03:03:34 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: D:\Edurekha\Dev-ops\selenium\webapp\chromedriver.exe]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\Edurekha\Dev-ops\selenium\webapp\chromedriver.exe
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at webapptest.NewTest1.start(NewTest1.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method signature="insertcase()[pri:0, instance:webapptest.NewTest1@27ce24aa]" started-at="2021-12-12T03:10:33 IST" name="insertcase" finished-at="2021-12-12T03:10:37 IST" duration-ms="3870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insertcase -->
-        <test-method is-config="true" signature="close()[pri:0, instance:webapptest.NewTest1@27ce24aa]" started-at="2021-12-12T03:03:34 IST" name="close" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1639258414730" status="SKIP">
+        <test-method is-config="true" signature="close()[pri:0, instance:webapptest.NewTest1@27ce24aa]" started-at="2021-12-12T03:10:37 IST" name="close" finished-at="2021-12-12T03:10:45 IST" duration-ms="8014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
